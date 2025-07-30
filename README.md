@@ -54,4 +54,5 @@ Semantic-search application for Mercor
 - Query: No 'prompt'. Only Title, Hard Criteria, Soft Criteria and whatever portion of Description fits in char limit (1024c)
 This seemed to work best among the alternatives.
 
+PLEASE REFER TO THE .PNG in results/ For a comparision of scores across these three (subtle) variations for both full-text-search and vector-search.
  
