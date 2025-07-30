@@ -1,0 +1,72 @@
+[
+    {
+        "Title": "Tax Lawyer",
+        "Natural Language Description": "Seasoned attorney with a JD from a top U.S. law school and over three years of legal practice, specializing in corporate tax structuring and compliance. Has represented clients in IRS audits and authored legal opinions on federal tax code matters.",
+        "Hard Criteria": "1. JD degree from an accredited U.S. law school\n2. 3+ years of experience practicing law",
+        "Soft Criteria": "1. Experience advising clients on tax implications of corporate or financial transactions\n2. Experience handling IRS audits, disputes, or regulatory inquiries\n3. Experience drafting legal opinions or filings related to federal and state tax compliance",
+        "Yaml File": "tax_lawyer.yml"
+    },
+    {
+        "Title": "Junior Corporate Laywer",
+        "Natural Language Description": "Corporate lawyer with two years of experience at a top-tier international law firm, specializing in M&A support and cross-border contract negotiations. Trained at a leading European law school with additional background in international regulatory compliance.",
+        "Hard Criteria": "1. 2-4 years of experience as a Corporate Lawyer at a leading law firm in the USA, Europe, or Canada, or in-house at a major global organization\n2. Graduate of a reputed law school in the USA, Europe, or Canada",
+        "Soft Criteria": "1. Experience supporting Corporate M&A transactions, including due diligence and legal documentation\n2. Experience drafting and negotiating legal contracts or commercial agreements\n3. Familiarity with international business law or advising on regulatory requirements across jurisdictions",
+        "Yaml File": "junior_corporate_lawyer.yml"
+    },
+    {
+        "Title": "Radiology",
+        "Natural Language Description": "Radiologist with an MD from India and several years of experience reading CT and MRI scans. Well-versed in diagnostic workflows and has worked on projects involving AI-assisted image analysis.",
+        "Hard Criteria": "1. MD degree from a medical school in the U.S. or India",
+        "Soft Criteria": "1. Board certification in Radiology (ABR, FRCR, or equivalent) or comparable credential\n2. 3+ years of experience interpreting X-ray, CT, MRI, ultrasound, or nuclear medicine studies\n3. Expertise in radiology reporting, diagnostic protocols, differential diagnosis, or AI applications in medical imaging",
+        "Yaml File": "radiology.yml"
+    },
+    {
+        "Title": "Doctors (MD)",
+        "Natural Language Description": "U.S.-trained physician with over two years of experience as a general practitioner, focused on chronic care management, wellness screenings, and outpatient diagnostics. Skilled in telemedicine and patient education.",
+        "Hard Criteria": "1. MD degree from a top U.S. medical school\n2. 2+ years of clinical practice experience in the U.S.\n3. Experience working as a General Practitioner (GP)",
+        "Soft Criteria": "1. Familiarity with EHR systems and managing high patient volumes in outpatient or family medicine settings\n2. Comfort with telemedicine consultations, patient triage, and interdisciplinary coordination",
+        "Yaml File": "doctors_md.yml"
+    },
+    {
+        "Title": "Biology Expert",
+        "Natural Language Description": "Biologist with a PhD from a top U.S. university, specializing in molecular biology and gene expression",
+        "Hard Criteria": "1. Completed undergraduate studies in the U.S., U.K., or Canada\n2. PhD in Biology from a top U.S. university",
+        "Soft Criteria": "1. Research experience in molecular biology, genetics, or cell biology, with publications in peer-reviewed journals\n2. Familiarity with experimental design, data analysis, and lab techniques such as CRISPR, PCR, or sequencing\n3. Experience mentoring students, teaching undergraduate biology courses, or collaborating on interdisciplinary research",
+        "Yaml File": "biology_expert.yml"
+    },
+    {
+        "Title": "Anthropology",
+        "Natural Language Description": "PhD student in anthropology at a top U.S. university, focused on labor migration and cultural identity",
+        "Hard Criteria": "1. PhD (in progress or completed) from a distinguished program in sociology, anthropology, or economics\n2. PhD program started within the last 3 years",
+        "Soft Criteria": "1. Demonstrated expertise in ethnographic methods, with substantial fieldwork or case study research involving cultural, social, or economic systems\n2. Strong academic output \u2014 published papers, working papers, or conference presentations on anthropological or sociological topics\n3. Experience applying anthropological theory to real-world or interdisciplinary contexts (e.g., migration, labor, technology, development), showing both conceptual depth and practical relevance",
+        "Yaml File": "anthropology.yml"
+    },
+    {
+        "Title": "Mathematics PhD",
+        "Natural Language Description": "Mathematician with a PhD from a leading U.S, specializing in statistical inference and stochastic processes. Published and experienced in both theoretical and applied research.",
+        "Hard Criteria": "1. Completed undergraduate studies in the U.S., U.K., or Canada\n2. PhD in Mathematics or Statistics from a top U.S. university",
+        "Soft Criteria": "1. Research expertise in pure or applied mathematics, statistics, or probability, with peer-reviewed publications or preprints\n2. Proficiency in mathematical modeling, proof-based reasoning, or algorithmic problem-solving",
+        "Yaml File": "mathematics_phd.yml"
+    },
+    {
+        "Title": "Quantitative Finance",
+        "Natural Language Description": "MBA graduate from a top U.S. program with 3+ years of experience in quantitative finance, including roles in risk modeling and algorithmic trading at a global investment firm. Skilled in Python and financial modeling, with expertise in portfolio optimization and derivatives pricing.",
+        "Hard Criteria": "1. MBA from a Prestigious U.S. university (M7 MBA)\n2. 3+ years of experience in quantitative finance, including roles such as risk modeling, algorithmic trading, or financial engineering",
+        "Soft Criteria": "1. Experience applying financial modeling techniques to real-world problems like portfolio optimization or derivatives pricing\n2. Proficiency with Python for quantitative analysis and exposure to financial libraries (e.g., QuantLib or equivalent)\n3. Demonstrated ability to work in high-stakes environments such as global investment firms, showing applied knowledge of quantitative methods in production settings",
+        "Yaml File": "quantitative_finance.yml"
+    },
+    {
+        "Title": "Bankers",
+        "Natural Language Description": "Healthcare investment banker with over two years at a leading advisory firm, focused on M&A for multi-site provider groups and digital health companies. Currently working in a healthcare-focused growth equity fund, driving diligence and investment strategy.",
+        "Hard Criteria": "1. MBA from a U.S. university\n2. 2+ years of prior work experience in investment banking, corporate finance, or M&A advisory",
+        "Soft Criteria": "1. Specialized experience in healthcare-focused investment banking or private equity, including exposure to sub-verticals like biotech, pharma services, or provider networks\n2. Led or contributed to transactions involving healthcare M&A, recapitalizations, or growth equity investments\n3. Familiarity with healthcare-specific metrics, regulatory frameworks, and value creation strategies (e.g., payer-provider integration, RCM optimization)",
+        "Yaml File": "bankers.yml"
+    },
+    {
+        "Title": "Mechanical Engineers",
+        "Natural Language Description": "Mechanical engineer with over three years of experience in product development and structural design, using tools like SolidWorks and ANSYS. Led thermal system simulations and supported prototyping for electromechanical components in an industrial R&D setting.",
+        "Hard Criteria": "1. Higher degree in Mechanical Engineering from an accredited university\n2. 3+ years of professional experience in mechanical design, product development, or systems engineering",
+        "Soft Criteria": "1. Experience with CAD tools (e.g., SolidWorks, AutoCAD) and mechanical simulation tools (e.g., ANSYS, COMSOL)\n2. Demonstrated involvement in end-to-end product lifecycle \u2014 from concept through prototyping to manufacturing or testing\n3. Domain specialization in areas like thermal systems, fluid dynamics, structural analysis, or mechatronics",
+        "Yaml File": "mechanical_engineers.yml"
+    }
+]
