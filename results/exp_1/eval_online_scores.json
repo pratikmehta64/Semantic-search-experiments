@@ -1,52 +1,52 @@
 [
     {
         "query": "Tax Lawyer",
-        "vector_avg_final_search_score": 65.83333333333334,
+        "vector_avg_final_search_score": 57.16666666666667,
         "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "corporate_transaction_experience",
-                "reasoning": null,
-                "average_score": 7.6
-            },
             {
                 "criteria_name": "legal_writing_expertise",
                 "reasoning": null,
-                "average_score": 8.35
+                "average_score": 7.95
             },
             {
                 "criteria_name": "irs_audit_experience",
                 "reasoning": null,
-                "average_score": 8.9
+                "average_score": 8.25
+            },
+            {
+                "criteria_name": "corporate_transaction_experience",
+                "reasoning": null,
+                "average_score": 7.7
             }
         ],
         "vector_hard_criteria_scores": [
             {
                 "criteria_name": "has_jd_degree",
                 "reasoning": null,
-                "pass_rate": 0.8
+                "pass_rate": 0.7
             },
             {
                 "criteria_name": "three_plus_years_experience",
                 "reasoning": null,
-                "pass_rate": 0.9
+                "pass_rate": 1.0
             }
         ],
-        "fts_avg_final_search_score": 80.5,
+        "fts_avg_final_search_score": 81.66666666666667,
         "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "corporate_transaction_experience",
-                "reasoning": null,
-                "average_score": 7.3
-            },
             {
                 "criteria_name": "legal_writing_expertise",
                 "reasoning": null,
-                "average_score": 8.15
+                "average_score": 8.2
             },
             {
                 "criteria_name": "irs_audit_experience",
                 "reasoning": null,
-                "average_score": 8.7
+                "average_score": 8.8
+            },
+            {
+                "criteria_name": "corporate_transaction_experience",
+                "reasoning": null,
+                "average_score": 7.5
             }
         ],
         "fts_hard_criteria_scores": [
@@ -54,6 +54,36 @@
                 "criteria_name": "has_jd_degree",
                 "reasoning": null,
                 "pass_rate": 1.0
+            },
+            {
+                "criteria_name": "three_plus_years_experience",
+                "reasoning": null,
+                "pass_rate": 1.0
+            }
+        ],
+        "fusion_avg_final_search_score": 74.16666666666667,
+        "fusion_soft_criteria_scores": [
+            {
+                "criteria_name": "legal_writing_expertise",
+                "reasoning": null,
+                "average_score": 8.1
+            },
+            {
+                "criteria_name": "irs_audit_experience",
+                "reasoning": null,
+                "average_score": 8.45
+            },
+            {
+                "criteria_name": "corporate_transaction_experience",
+                "reasoning": null,
+                "average_score": 7.5
+            }
+        ],
+        "fusion_hard_criteria_scores": [
+            {
+                "criteria_name": "has_jd_degree",
+                "reasoning": null,
+                "pass_rate": 0.9
             },
             {
                 "criteria_name": "three_plus_years_experience",
@@ -64,8 +94,13 @@
     },
     {
         "query": "Junior Corporate Laywer",
-        "vector_avg_final_search_score": 51.333333333333336,
+        "vector_avg_final_search_score": 16.0,
         "vector_soft_criteria_scores": [
+            {
+                "criteria_name": "ma_transaction_experience",
+                "reasoning": null,
+                "average_score": 6.5
+            },
             {
                 "criteria_name": "international_law_familiarity",
                 "reasoning": null,
@@ -74,101 +109,116 @@
             {
                 "criteria_name": "contract_negotiation_skills",
                 "reasoning": null,
-                "average_score": 6.8
-            },
-            {
-                "criteria_name": "ma_transaction_experience",
-                "reasoning": null,
-                "average_score": 6.3
+                "average_score": 6.7
             }
         ],
         "vector_hard_criteria_scores": [
             {
                 "criteria_name": "reputed_law_school",
                 "reasoning": null,
-                "pass_rate": 0.7
+                "pass_rate": 0.6
             },
             {
                 "criteria_name": "appropriate_experience_level",
                 "reasoning": null,
-                "pass_rate": 0.7
+                "pass_rate": 0.3
             }
         ],
-        "fts_avg_final_search_score": 66.66666666666667,
+        "fts_avg_final_search_score": 68.33333333333334,
         "fts_soft_criteria_scores": [
+            {
+                "criteria_name": "ma_transaction_experience",
+                "reasoning": null,
+                "average_score": 8.6
+            },
             {
                 "criteria_name": "international_law_familiarity",
                 "reasoning": null,
-                "average_score": 8.4
+                "average_score": 8.8
             },
             {
                 "criteria_name": "contract_negotiation_skills",
                 "reasoning": null,
-                "average_score": 8.1
-            },
-            {
-                "criteria_name": "ma_transaction_experience",
-                "reasoning": null,
-                "average_score": 8.5
+                "average_score": 8.3
             }
         ],
         "fts_hard_criteria_scores": [
             {
                 "criteria_name": "reputed_law_school",
                 "reasoning": null,
-                "pass_rate": 0.8
+                "pass_rate": 0.9
             },
             {
                 "criteria_name": "appropriate_experience_level",
                 "reasoning": null,
-                "pass_rate": 0.9
+                "pass_rate": 0.8
+            }
+        ],
+        "fusion_avg_final_search_score": 43.333333333333336,
+        "fusion_soft_criteria_scores": [
+            {
+                "criteria_name": "ma_transaction_experience",
+                "reasoning": null,
+                "average_score": 7.8
+            },
+            {
+                "criteria_name": "international_law_familiarity",
+                "reasoning": null,
+                "average_score": 8.1
+            },
+            {
+                "criteria_name": "contract_negotiation_skills",
+                "reasoning": null,
+                "average_score": 7.8
+            }
+        ],
+        "fusion_hard_criteria_scores": [
+            {
+                "criteria_name": "reputed_law_school",
+                "reasoning": null,
+                "pass_rate": 0.7
+            },
+            {
+                "criteria_name": "appropriate_experience_level",
+                "reasoning": null,
+                "pass_rate": 0.6
             }
         ]
     },
     {
         "query": "Radiology",
-        "vector_avg_final_search_score": 68.0,
+        "vector_avg_final_search_score": 66.33333333333334,
         "vector_soft_criteria_scores": [
+            {
+                "criteria_name": "board_certification",
+                "reasoning": null,
+                "average_score": 5.5
+            },
             {
                 "criteria_name": "radiology_expertise",
                 "reasoning": null,
-                "average_score": 8.2
+                "average_score": 8.0
             },
             {
                 "criteria_name": "diagnostic_imaging_expertise",
                 "reasoning": null,
-                "average_score": 8.4
-            },
-            {
-                "criteria_name": "board_certification",
-                "reasoning": null,
-                "average_score": 6.3
+                "average_score": 8.7
             }
         ],
         "vector_hard_criteria_scores": [
             {
-                "criteria_name": "has_md_degree_from_india",
-                "reasoning": null,
-                "pass_rate": 0.0
-            },
-            {
-                "criteria_name": "location",
-                "reasoning": null,
-                "pass_rate": 0.1
-            },
-            {
                 "criteria_name": "has_md_degree",
                 "reasoning": null,
                 "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "has_us_or_india_md_degree",
-                "reasoning": null,
-                "pass_rate": 0.1
             }
         ],
-        "fts_avg_final_search_score": 70.83333333333334,
+        "fts_avg_final_search_score": 61.66666666666667,
         "fts_soft_criteria_scores": [
+            {
+                "criteria_name": "board_certification",
+                "reasoning": null,
+                "average_score": 7.35
+            },
             {
                 "criteria_name": "radiology_expertise",
                 "reasoning": null,
@@ -177,59 +227,39 @@
             {
                 "criteria_name": "diagnostic_imaging_expertise",
                 "reasoning": null,
-                "average_score": 8.5
-            },
-            {
-                "criteria_name": "board_certification",
-                "reasoning": null,
-                "average_score": 7.3
+                "average_score": 8.4
             }
         ],
         "fts_hard_criteria_scores": [
             {
-                "criteria_name": "from_a_medical_school_in_the_us_or_india",
+                "criteria_name": "has_md_degree",
                 "reasoning": null,
-                "pass_rate": 0.1
-            },
-            {
-                "criteria_name": "has_md_degree_from_india_or_us",
-                "reasoning": null,
-                "pass_rate": 0.1
-            },
+                "pass_rate": 0.8
+            }
+        ],
+        "fusion_avg_final_search_score": 71.33333333333334,
+        "fusion_soft_criteria_scores": [
             {
                 "criteria_name": "board_certification",
                 "reasoning": null,
-                "pass_rate": 0.0
+                "average_score": 6.75
             },
             {
-                "criteria_name": "has_us_or_india_md_degree",
+                "criteria_name": "radiology_expertise",
                 "reasoning": null,
-                "pass_rate": 0.1
+                "average_score": 8.25
             },
+            {
+                "criteria_name": "diagnostic_imaging_expertise",
+                "reasoning": null,
+                "average_score": 9.0
+            }
+        ],
+        "fusion_hard_criteria_scores": [
             {
                 "criteria_name": "has_md_degree",
                 "reasoning": null,
                 "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "MD from India or US",
-                "reasoning": null,
-                "pass_rate": 0.1
-            },
-            {
-                "criteria_name": "location",
-                "reasoning": null,
-                "pass_rate": 0.1
-            },
-            {
-                "criteria_name": "from_us_or_india",
-                "reasoning": null,
-                "pass_rate": 0.1
-            },
-            {
-                "criteria_name": "city_from_where_educated",
-                "reasoning": null,
-                "pass_rate": 0.1
             }
         ]
     },
@@ -238,430 +268,110 @@
         "vector_avg_final_search_score": 0.0,
         "vector_soft_criteria_scores": [
             {
-                "criteria_name": "telemedicine_comfort",
-                "reasoning": null,
-                "average_score": 4.9
-            },
-            {
                 "criteria_name": "ehr_systems_familiarity",
                 "reasoning": null,
-                "average_score": 4.6
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "general_practitioner_experience",
-                "reasoning": null,
-                "pass_rate": 0.5
+                "average_score": 5.5
             },
-            {
-                "criteria_name": "two_plus_years_clinical",
-                "reasoning": null,
-                "pass_rate": 0.2
-            },
-            {
-                "criteria_name": "top_us_md_degree",
-                "reasoning": null,
-                "pass_rate": 0.0
-            }
-        ],
-        "fts_avg_final_search_score": 15.5,
-        "fts_soft_criteria_scores": [
             {
                 "criteria_name": "telemedicine_comfort",
-                "reasoning": null,
-                "average_score": 6.3
-            },
-            {
-                "criteria_name": "ehr_systems_familiarity",
-                "reasoning": null,
-                "average_score": 6.9
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "general_practitioner_experience",
-                "reasoning": null,
-                "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "two_plus_years_clinical",
-                "reasoning": null,
-                "pass_rate": 0.6
-            },
-            {
-                "criteria_name": "top_us_md_degree",
-                "reasoning": null,
-                "pass_rate": 0.2
-            }
-        ]
-    },
-    {
-        "query": "Biology Expert",
-        "vector_avg_final_search_score": 8.333333333333334,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "molecular_biology_research",
-                "reasoning": null,
-                "average_score": 6.3
-            },
-            {
-                "criteria_name": "teaching_mentoring_experience",
-                "reasoning": null,
-                "average_score": 4.4
-            },
-            {
-                "criteria_name": "experimental_design_skills",
                 "reasoning": null,
                 "average_score": 6.1
             }
         ],
         "vector_hard_criteria_scores": [
             {
-                "criteria_name": "phd_from_top_us_university",
-                "reasoning": null,
-                "pass_rate": 0.5
-            },
-            {
-                "criteria_name": "undergraduate_location",
-                "reasoning": null,
-                "pass_rate": 0.2
-            }
-        ],
-        "fts_avg_final_search_score": 17.333333333333336,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "molecular_biology_research",
-                "reasoning": null,
-                "average_score": 9.0
-            },
-            {
-                "criteria_name": "teaching_mentoring_experience",
-                "reasoning": null,
-                "average_score": 7.9
-            },
-            {
-                "criteria_name": "experimental_design_skills",
-                "reasoning": null,
-                "average_score": 8.3
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "phd_from_top_us_university",
+                "criteria_name": "two_plus_years_clinical",
                 "reasoning": null,
                 "pass_rate": 0.3
             },
             {
-                "criteria_name": "undergraduate_location",
-                "reasoning": null,
-                "pass_rate": 0.2
-            }
-        ]
-    },
-    {
-        "query": "Anthropology",
-        "vector_avg_final_search_score": 32.333333333333336,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "academic_output_quality",
-                "reasoning": null,
-                "average_score": 7.7
-            },
-            {
-                "criteria_name": "ethnographic_methods_expertise",
-                "reasoning": null,
-                "average_score": 8.7
-            },
-            {
-                "criteria_name": "applied_anthropology_experience",
-                "reasoning": null,
-                "average_score": 8.0
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "phd_in_relevant_field",
-                "reasoning": null,
-                "pass_rate": 1.0
-            },
-            {
-                "criteria_name": "recent_phd_program",
-                "reasoning": null,
-                "pass_rate": 0.4
-            }
-        ],
-        "fts_avg_final_search_score": 22.666666666666664,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "academic_output_quality",
-                "reasoning": null,
-                "average_score": 7.7
-            },
-            {
-                "criteria_name": "ethnographic_methods_expertise",
-                "reasoning": null,
-                "average_score": 8.3
-            },
-            {
-                "criteria_name": "applied_anthropology_experience",
-                "reasoning": null,
-                "average_score": 7.7
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "phd_in_relevant_field",
-                "reasoning": null,
-                "pass_rate": 1.0
-            },
-            {
-                "criteria_name": "recent_phd_program",
-                "reasoning": null,
-                "pass_rate": 0.3
-            }
-        ]
-    },
-    {
-        "query": "Mathematics PhD",
-        "vector_avg_final_search_score": 25.0,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "research_expertise_math",
-                "reasoning": null,
-                "average_score": 8.5
-            },
-            {
-                "criteria_name": "mathematical_modeling_proficiency",
-                "reasoning": null,
-                "average_score": 8.35
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "undergraduate_location_math",
-                "reasoning": null,
-                "pass_rate": 0.5
-            },
-            {
-                "criteria_name": "phd_math_statistics",
-                "reasoning": null,
-                "pass_rate": 0.6
-            }
-        ],
-        "fts_avg_final_search_score": 34.75,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "research_expertise_math",
-                "reasoning": null,
-                "average_score": 8.8
-            },
-            {
-                "criteria_name": "mathematical_modeling_proficiency",
-                "reasoning": null,
-                "average_score": 8.65
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "undergraduate_location_math",
+                "criteria_name": "general_practitioner_experience",
                 "reasoning": null,
                 "pass_rate": 0.4
             },
             {
-                "criteria_name": "phd_math_statistics",
-                "reasoning": null,
-                "pass_rate": 0.7
-            }
-        ]
-    },
-    {
-        "query": "Quantitative Finance",
-        "vector_avg_final_search_score": 7.333333333333334,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "financial_modeling_experience",
-                "reasoning": null,
-                "average_score": 8.6
-            },
-            {
-                "criteria_name": "high_stakes_environment",
-                "reasoning": null,
-                "average_score": 3.15
-            },
-            {
-                "criteria_name": "python_quantitative_proficiency",
-                "reasoning": null,
-                "average_score": 7.55
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "three_plus_years_quant_finance",
-                "reasoning": null,
-                "pass_rate": 0.7
-            },
-            {
-                "criteria_name": "m7_mba",
+                "criteria_name": "top_us_md_degree",
                 "reasoning": null,
                 "pass_rate": 0.1
             }
         ],
-        "fts_avg_final_search_score": 24.166666666666668,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "financial_modeling_experience",
-                "reasoning": null,
-                "average_score": 8.9
-            },
-            {
-                "criteria_name": "high_stakes_environment",
-                "reasoning": null,
-                "average_score": 1.9
-            },
-            {
-                "criteria_name": "python_quantitative_proficiency",
-                "reasoning": null,
-                "average_score": 7.85
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "three_plus_years_quant_finance",
-                "reasoning": null,
-                "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "m7_mba",
-                "reasoning": null,
-                "pass_rate": 0.3
-            }
-        ]
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
+    },
+    {
+        "query": "Biology Expert",
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
+    },
+    {
+        "query": "Anthropology",
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
+    },
+    {
+        "query": "Mathematics PhD",
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
+    },
+    {
+        "query": "Quantitative Finance",
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
     },
     {
         "query": "Bankers",
-        "vector_avg_final_search_score": 50.00000000000001,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "healthcare_metrics_knowledge",
-                "reasoning": null,
-                "average_score": 4.8
-            },
-            {
-                "criteria_name": "healthcare_investment_banking_experience",
-                "reasoning": null,
-                "average_score": 7.1
-            },
-            {
-                "criteria_name": "healthcare_ma_transactions",
-                "reasoning": null,
-                "average_score": 5.9
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "two_plus_years_banking",
-                "reasoning": null,
-                "pass_rate": 0.6
-            },
-            {
-                "criteria_name": "mba_us_university",
-                "reasoning": null,
-                "pass_rate": 0.9
-            }
-        ],
-        "fts_avg_final_search_score": 49.333333333333336,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "healthcare_metrics_knowledge",
-                "reasoning": null,
-                "average_score": 4.1
-            },
-            {
-                "criteria_name": "healthcare_investment_banking_experience",
-                "reasoning": null,
-                "average_score": 8.4
-            },
-            {
-                "criteria_name": "healthcare_ma_transactions",
-                "reasoning": null,
-                "average_score": 7.6
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "two_plus_years_banking",
-                "reasoning": null,
-                "pass_rate": 1.0
-            },
-            {
-                "criteria_name": "mba_us_university",
-                "reasoning": null,
-                "pass_rate": 0.6
-            }
-        ]
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
     },
     {
         "query": "Mechanical Engineers",
-        "vector_avg_final_search_score": 76.33333333333334,
-        "vector_soft_criteria_scores": [
-            {
-                "criteria_name": "domain_specialization_mechanical",
-                "reasoning": null,
-                "average_score": 8.3
-            },
-            {
-                "criteria_name": "cad_simulation_tools_experience",
-                "reasoning": null,
-                "average_score": 8.9
-            },
-            {
-                "criteria_name": "product_lifecycle_involvement",
-                "reasoning": null,
-                "average_score": 8.2
-            }
-        ],
-        "vector_hard_criteria_scores": [
-            {
-                "criteria_name": "higher_degree_mechanical",
-                "reasoning": null,
-                "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "three_plus_years_mechanical",
-                "reasoning": null,
-                "pass_rate": 1.0
-            }
-        ],
-        "fts_avg_final_search_score": 79.16666666666667,
-        "fts_soft_criteria_scores": [
-            {
-                "criteria_name": "domain_specialization_mechanical",
-                "reasoning": null,
-                "average_score": 8.7
-            },
-            {
-                "criteria_name": "cad_simulation_tools_experience",
-                "reasoning": null,
-                "average_score": 9.0
-            },
-            {
-                "criteria_name": "product_lifecycle_involvement",
-                "reasoning": null,
-                "average_score": 8.75
-            }
-        ],
-        "fts_hard_criteria_scores": [
-            {
-                "criteria_name": "higher_degree_mechanical",
-                "reasoning": null,
-                "pass_rate": 0.9
-            },
-            {
-                "criteria_name": "three_plus_years_mechanical",
-                "reasoning": null,
-                "pass_rate": 1.0
-            }
-        ]
+        "vector_avg_final_search_score": null,
+        "vector_soft_criteria_scores": null,
+        "vector_hard_criteria_scores": null,
+        "fts_avg_final_search_score": null,
+        "fts_soft_criteria_scores": null,
+        "fts_hard_criteria_scores": null,
+        "fusion_avg_final_search_score": null,
+        "fusion_soft_criteria_scores": null,
+        "fusion_hard_criteria_scores": null
     }
 ]

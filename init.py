@@ -29,7 +29,9 @@ load_dotenv('.env')
 OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 TURBOPUFFER_API_KEY = os.environ.get('TURBOPUFFER_API_KEY')
 VOYAGEAI_API_KEY = os.environ.get('VOYAGEAI_API_KEY')
-
+MY_EMAIL = os.environ.get('MY_EMAIL')
+EVAL_ENDPOINT = os.environ.get('EVAL_ENDPOINT')
+GRADE_ENDPOINT = os.environ.get('GRADE_ENDPOINT')
 
 json_data = convert_csv_to_json("Off Platform Search Evaluation Criteria - Sheet1.csv")
 with open("queries.json", "w") as json_file:

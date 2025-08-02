@@ -39,20 +39,29 @@ Semantic-search application for Mercor
 <!-- Alert: There are no type checks in the code, so please exercise caution if editing it. Suffice to say, this code is NOT PROD-FRIENDLY -->
 1. Baseline: 
 - Default doc-embedding store provided via migrate.py
-- Query: A simple prompt along with Title, Description, and Hard Criteria 
+- Query: Title, Description, and Hard Criteria 
 - Cosine similarity
 - For this baseline as for other experiments, vector search results were compared to full-text-only search (FTS). 
 - FTS outperformed vector search on hard-criteria and total avg scores nearly always (and was therefore used for the grading submission). This is likely attributable to the nature of the dataset and queries - similarity search was adequate given the likelihood of exact matches, though not so for the soft criteria.
 
 2. Experiment 1:
-- Query: Baseline 'prompt', Title, Description, Hard Criteria, and whatever portion of Soft Criteria fits in char limit (1024c)
+- Query: Title, Description, Hard Criteria, and whatever portion of Soft Criteria fits in char limit (1024c)
 
 3. Experiment 2:
-- Query: No 'prompt'. Only Title, Hard Criteria, and Soft Criteria
+- Query: No 'prompt' or 'Description'. Only Title, Hard Criteria, and Soft Criteria
 
 4. Experiment 3:
 - Query: No 'prompt'. Only Title, Hard Criteria, Soft Criteria and whatever portion of Description fits in char limit (1024c)
 This seemed to work best among the alternatives.
 
-PLEASE REFER TO THE .PNG in results/ For a comparision of scores across these three (subtle) variations for both full-text-search and vector-search.
- 
+5. Experiments 4-8:
+Other variations that borrow the query either from experiment #3 or the baseline.
+
+Three main submissions:
+1. Submission #1: Vector_search
+2. Submission #2: Full-text search
+3. Submission #3: FTS + Vector_search + Reranking using reciprocal rank fusion
+
+PLEASE REFER TO THE .PNGs in results/ For a comparision of scores across these three (subtle) variations for both full-text-search and vector-search.
+
+Overall, the baseline version of the query with reranking using Reciprocal rank fusion over ANN+Full text search retrieval results provided best results, and constitute the final submission.
