@@ -64,7 +64,7 @@ async def batch_worker():
         # Send batch to backend
         async with httpx.AsyncClient() as client:
             try:
-                response = await client.post(CLASSIFICATION_SERVER_URL, json={"items": batch})
+                response = await client.post(CLASSIFICATION_SERVER_URL, json={"sequences": batch})
                 results = response.json()["results"]
             except Exception as e:
                 # Error handling: inform all futures
