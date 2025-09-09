@@ -1,10 +1,9 @@
-# mercor-interview
-Semantic-search application for Mercor
+Semantic-search application originally meant as an interview take-home
 
 # Steps to prepare:
 [Optional]
-1. `python3 -m venv mercor-interview-env`
-2. `source mercor-interview-env/bin/activate`
+1. `python3 -m venv interview-env`
+2. `source interview-env/bin/activate`
 
 [Required]
 3. `pip3 install -r requirements.txt`
